@@ -1,0 +1,15 @@
+"""17. Sort a list of numbers in ascending order
+Required Input:
+5 3 8 1 2
+Expected Output:
+[1, 2, 3, 5, 8] """
+
+code:
+def sort_list(lst):
+    return sorted(lst)
+  
+lis=[5,3,8,1,2]
+print(sort_list(lis))
+
+output:
+[1, 2, 3, 5, 8]
