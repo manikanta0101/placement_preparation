@@ -1,0 +1,14 @@
+"""7. Find the sum of all numbers in a list
+Required Input:
+[1, 2, 3, 4, 5]
+Expected Output:
+15  """
+
+code:
+def sum_of_list():
+    lst = [1, 2, 3, 4, 5]
+    return sum(lst)
+print(sum_of_list())
+
+output:
+15
