@@ -1,0 +1,17 @@
+"""2. Determine if a number is even or odd
+Required Input:
+7
+Expected Output:
+Odd  """
+
+code:
+def check_even_odd():
+    n = 7
+    if n%2==0:
+          return "Even"
+    else:
+          return "Odd"
+print(check_even_odd())
+
+output:
+odd
