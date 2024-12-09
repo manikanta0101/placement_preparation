@@ -1,0 +1,15 @@
+"""1. Find the sum of two numbers
+Required Input:
+4, 5
+Expected Output:
+9 """
+
+code:
+def sum_two_numbers():
+    a = 4
+    b=5
+    return a+b
+print(sum_two_numbers())
+
+output:
+9
