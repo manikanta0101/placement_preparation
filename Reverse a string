@@ -1,0 +1,14 @@
+"""4. Reverse a string
+Required Input:
+hello
+Expected Output:
+olleh """
+
+code:
+def reverse_string():
+    s = "hello"
+    return s[::-1]
+print(reverse_string())
+
+output:
+olleh
