@@ -1,0 +1,17 @@
+"""24. Calculate the sum of digits of a number
+Required Input:
+123
+Expected Output:
+6  """
+
+code:
+n=123
+sum=0
+while n>0:
+  digit=n%10
+  sum+=digit
+  n=n//10
+print(sum)
+
+output:
+6
