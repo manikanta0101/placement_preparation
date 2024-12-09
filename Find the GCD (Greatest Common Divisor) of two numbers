@@ -1,0 +1,17 @@
+"""11. Find the GCD (Greatest Common Divisor) of two numbers
+Required Input:
+8, 12
+Expected Output:
+4  """
+
+code:
+import math
+
+def find_gcd():
+    a, b = 8, 12
+    return math.gcd(a, b)
+
+print(find_gcd())
+
+output:
+4
