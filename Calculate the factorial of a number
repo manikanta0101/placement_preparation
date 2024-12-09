@@ -1,0 +1,17 @@
+"""6. Calculate the factorial of a number
+Required Input:
+5
+Expected Output:
+120  """
+
+code:
+def factorial(n):
+    if n==0 or n==1:
+       return 1
+    else:
+       return n * factorial(n-1)
+n = 5
+print(factorial(n))
+
+output:
+120
