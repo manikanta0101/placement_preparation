@@ -1,0 +1,17 @@
+"""12. Find the LCM (Least Common Multiple) of two numbers
+Required Input:
+4, 5
+Expected Output:
+20   """
+
+code:
+import math
+
+def find_lcm():
+    a, b = 4, 5
+    return (a * b) // math.gcd(a, b)
+
+print(find_lcm()
+
+output:
+20
