@@ -1,0 +1,14 @@
+"""15. Convert a list of strings to uppercase
+Required Input:
+python java cpp
+Expected Output:
+PYTHON JAVA CPP """
+
+code:
+def to_uppercase(s):
+    return s.upper()
+word='python java cpp'
+print(to_uppercase(word))
+
+output:
+PYTHON JAVA CPP
