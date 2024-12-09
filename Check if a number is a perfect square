@@ -1,0 +1,14 @@
+"""28. Check if a number is a perfect square
+Required Input:
+25
+Expected Output:
+True """
+
+code:
+n=25
+square=n*n
+if square%n==0:
+  print("True")
+
+output:
+True
