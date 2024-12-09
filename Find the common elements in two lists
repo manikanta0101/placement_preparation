@@ -1,0 +1,15 @@
+"""18. Find the common elements in two lists
+Required Input:
+1 2 3 4, 3 4 5 6
+Expected Output:
+[3, 4] """
+
+code:
+def common_elements(lst1, lst2):
+    return list(lst1.intersection(lst2))
+s1={1,2,3,4}
+s2={3,4,5,6}
+print(common_elements(s1,s2))
+
+output:
+[3, 4]
