@@ -1,0 +1,15 @@
+"""5. Find the number of words in a sentence
+Required Input:
+Python programming is fun
+Expected Output:
+4 """
+
+code:
+def count_words():
+    sentence = "Python programming is fun"
+    return len(sentence.split())
+
+print(count_words())
+
+output:
+4
