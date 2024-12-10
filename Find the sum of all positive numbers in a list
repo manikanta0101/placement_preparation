@@ -1,0 +1,15 @@
+""" 26. Find the sum of all positive numbers in a list
+Required Input:
+[-1, 2, 3, -4, 5]
+Expected Output:
+10  """
+
+code:
+def sum_of_positives():
+    lst = [-1, 2, 3, -4, 5]
+    return sum(x for x in lst if x > 0)
+
+print(sum_of_positives())
+
+output:
+10
