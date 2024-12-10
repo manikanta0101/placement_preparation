@@ -1,0 +1,16 @@
+"""7. Check if two lists are identical
+Required Input:
+[1, 2, 3], [1, 2, 3]
+Expected Output:
+True """
+
+code:
+def check_identical_lists():
+    lst1 = [1, 2, 3]
+    lst2 = [1, 2, 3]
+    return lst1 == lst2
+
+print(check_identical_lists()) 
+
+output:
+True
