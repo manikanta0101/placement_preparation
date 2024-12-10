@@ -1,0 +1,15 @@
+""" 10. Capitalize the first letter of each word in a string
+Required Input:
+python is fun
+Expected Output:
+Python Is Fun """
+
+code:
+def capitalize_words():
+    s = "python is fun"
+    return s.title()
+
+print(capitalize_words())
+
+output:
+Python Is Fun
