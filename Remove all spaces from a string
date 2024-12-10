@@ -1,0 +1,15 @@
+"""9. Remove all spaces from a string
+Required Input:
+hello world
+Expected Output:
+helloworld """
+
+code:
+f remove_spaces():
+    s = "hello world"
+    return s.replace(" ", "")
+
+print(remove_spaces())
+
+output:
+helloworld
