@@ -1,0 +1,21 @@
+"""18. Check if a number is an Armstrong number
+Required Input:
+153
+Expected Output:
+True """
+
+code:
+def is_armstrong():
+    n = 153
+    s=str(n)
+    original=n
+    sum=0
+    while n>0:
+      digit=n%10
+      sum+=digit**3
+      n=n//10
+    return sum==original
+print(is_armstrong())
+
+output:
+True
