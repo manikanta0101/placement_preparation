@@ -1,0 +1,18 @@
+"""20. Find all palindromic numbers between two given numbers
+Required Input:
+100, 150
+Expected Output:
+[101, 111, 121, 131, 141] """
+
+code:
+def palindromic_numbers():
+  s=[]
+  start, end = 100, 150
+  for i in range(start,end+1):
+    if str(i)==str(i)[::-1]:
+      s.append(i)
+      return s
+print(palindromic_numbers())
+
+output:
+[101, 111, 121, 131, 141]w
