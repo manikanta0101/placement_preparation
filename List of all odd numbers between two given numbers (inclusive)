@@ -1,0 +1,18 @@
+17. Create a list of all odd numbers between two given numbers (inclusive)
+Required Input:
+3, 10
+Expected Output:
+[3, 5, 7, 9]
+
+code:
+def odd_numbers_in_range():
+    start, end = 3, 10
+    s=[]
+    for i in range(start,end+1):
+      if i%2!=0:
+        s.append(i)  
+    return s
+print(odd_numbers_in_range())
+
+output:
+[3, 5, 7, 9]
