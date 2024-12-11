@@ -1,0 +1,17 @@
+"""13. Merge two dictionaries
+Required Input:
+{'a': 1, 'b': 2}, {'b': 3, 'c': 4}
+Expected Output:
+{'a': 1, 'b': 3, 'c': 4} """
+
+code:
+def merge_dictionaries():
+    dict1 = {'a': 1, 'b': 2}
+    dict2 = {'b': 3, 'c': 4}
+    dict1.update(dict2)
+    return dict1
+
+print(merge_dictionaries())
+
+output:
+{'a': 1, 'b': 3, 'c': 4}
